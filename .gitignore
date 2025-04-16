@@ -1,3 +1,40 @@
-*.pyc
+# Byte-compiled / optimized / DLL files
 __pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Spark logs and metadata
+spark-warehouse/
+.metastore_db/
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Editor settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data folders
+data/*.csv
+data/*.parquet
+data/*.hl7
+data/raw_hl7/
+data/parquet/
+
+# Logs
+*.log
+
+# Credentials and config (if any)
 .env
+*.key
+*.pem
